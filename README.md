@@ -18,7 +18,8 @@ Download packages
 ```
 cd ~/turtlebot3_ws/src
 git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git && cd turtlebot3_msgs/ && git checkout foxy-devel && cd ~/turtlebot3_ws/src
-git clone https://github.com/ROBOTIS-GIT/turtlebot3.git && cd turtlebot3 && git checkout foxy-devel
+git clone https://github.com/ROBOTIS-GIT/turtlebot3.git && cd turtlebot3 && git checkout foxy-devel && cd ~/turtlebot3_ws/src
+git clone https://github.com/TIERS/turtlebot3_simulations/ && git checkout foxy-devel
 cd ~/turtlebot3_ws && colcon build
 ```
 
