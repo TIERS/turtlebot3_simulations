@@ -8,6 +8,10 @@ If you already downloaded it:
 git checkout foxy-devel
 ```
 
+Otherwise change the branch:
+
+![foxy-devel branch](/foxy.png)
+
 ## ROBOTIS e-Manual for TurtleBot3
 - [ROBOTIS e-Manual for TurtleBot3](http://turtlebot3.robotis.com/)
 
