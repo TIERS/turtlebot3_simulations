@@ -29,10 +29,15 @@ Now open your `~/.bashrc` file and add optionally the following lines to setup t
 alias tbotsim="source ~/turtlebot3_ws/install/setup.bash && export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models && export TURTLEBOT3_MODEL=waffle_pi"
 ```
 
-Then source the file and run the alias
+Then source the file so you can use the alias
 ```
-source ~/.bashrc && tbotsim
+source ~/.bashrc
 ```
+and run it
+```
+tbotsim
+```
+
 
 Finally run the simulation
 ```
